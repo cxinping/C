@@ -12,5 +12,10 @@ int main()
     *p = 5;
 
     printf("修改后，a的值：%d\n", a);
+
+    printf("变量a的地址是: %p\n", &a );
+    printf("指针变量p存储的是: %p\n", p );
+    printf("指针变量p的地址是: %p\n", &p );
+
     return 0;
 }
