@@ -2,15 +2,19 @@
  
 int main()
 {
-    int a = 20;
-    printf("修改前，a的值：%d\n", a);
+    int  var = 20;   /* 实际变量的声明 */
+    int  *p;        /* 指针变量的声明 */
 
-    // 指针变量p指向变量a
-    int *p = &a;
+    p = &var;  /* 在指针变量中存储 var 的地址 */
 
-    // 通过指针变量p间接修改变量a的值
-    *p = 5;
+    printf("变量var的地址是: %p\n", &var  );
 
-    printf("修改后，a的值：%d\n", a);
+    /* 在指针变量中存储的地址 */
+    printf("指针变量p存储的是: %p\n", p );
+    printf("指针变量p的地址是: %p\n", &p );
+
+    /* 使用指针访问值 */
+    printf("指针*p访问值是: %d\n", *p );
+
     return 0;
 }
