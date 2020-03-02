@@ -9,7 +9,7 @@ int main ()
     // 使用strlen函数测量字符串长度
     int len = strlen(s);
 
-    printf("字符串长度：%d", len);
-
+    printf("字符串长度：%d\n", len);
+    printf("s = %s", s);
     return 0;
 }
