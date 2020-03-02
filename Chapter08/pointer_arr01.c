@@ -11,7 +11,6 @@ int main ()
    ptr = var;
    for ( i = 0; i < MAX; i++)
    {
- 
       printf("var[%d]的存储地址 = %p\n", i, ptr );
       printf("var[%d]的存储值 = %d\n", i, *ptr );
  
