@@ -4,8 +4,8 @@ int main()
 {
     struct Person{
         int index;
-        short age;
         char name[30];
+        short age;
     }person;
 
     printf("%d" , sizeof(person) );
