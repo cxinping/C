@@ -7,9 +7,9 @@ enum Season
  
 int main()
 {
- // ±éÀúÃ¶¾ÙÔªËØ
+    // éå†æšä¸¾å…ƒç´ 
     for (season = Spring; season <= Winter; season++) {
-        printf("Ã¶¾ÙÔªËØ£º%d \n", season);
+        printf("æšä¸¾å…ƒç´ ï¼š%d \n", season);
     }
     return 0;
 }

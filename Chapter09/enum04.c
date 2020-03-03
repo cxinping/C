@@ -1,28 +1,28 @@
-
 #include <stdio.h>
 #include <stdlib.h>
+
 int main()
 {
     enum color { red=1, green, blue };
     enum color favorite_color;
   
-    printf("ÇëÊäÈëÄãÏ²»¶µÄÑÕÉ«: (1. red, 2. green, 3. blue): ");
+    printf("è¯·è¾“å…¥ä½ å–œæ¬¢çš„é¢œè‰²: (1. red, 2. green, 3. blue): ");
     scanf("%d", &favorite_color);
  
-    /* Êä³ö½á¹û */
+    /* è¾“å‡ºç»“æœ */
     switch (favorite_color)
     {
         case red:
-            printf("ÄãÏ²»¶µÄÑÕÉ«ÊÇºìÉ«");
+            printf("ä½ å–œæ¬¢çš„é¢œè‰²æ˜¯çº¢è‰²");
             break;
         case green:
-            printf("ÄãÏ²»¶µÄÑÕÉ«ÊÇÂÌÉ«");
+            printf("ä½ å–œæ¬¢çš„é¢œè‰²æ˜¯ç»¿è‰²");
             break;
         case blue:
-            printf("ÄãÏ²»¶µÄÑÕÉ«ÊÇÀ¶É«");
+            printf("ä½ å–œæ¬¢çš„é¢œè‰²æ˜¯è“è‰²");
             break;
         default:
-            printf("ÄãÃ»ÓĞÑ¡ÔñÄãÏ²»¶µÄÑÕÉ«");
+            printf("ä½ æ²¡æœ‰é€‰æ‹©ä½ å–œæ¬¢çš„é¢œè‰²");
     }
  
     return 0;
