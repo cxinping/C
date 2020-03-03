@@ -1,23 +1,24 @@
 #include <stdio.h>
-#include <time.h>
  
-void getSeconds(unsigned long *par);
-
+void swap(int *a,int *b){
+   int temp;
+   temp = *a;
+   *a = *b;
+   *b = temp;
+}
+ 
 int main ()
 {
-   unsigned long sec;
+   int x, y;
+   int *p_x, *p_y;
+   x = 5;
+   y = 3;
 
-   getSeconds( &sec );
-
-   /* è¾“å‡ºå®é™…å€¼ */
-   printf("Number of seconds: %ld\n", sec );
+   p_x = &x;
+   p_y = &y;
+   printf("½»»»Ç° x=%d, y=%d\n",x,y);
+   swap(p_x,p_y);
+   printf("½»»»ºó x=%d, y=%d\n",x,y);
 
    return 0;
-}
-
-void getSeconds(unsigned long *par)
-{
-   /* è·å–å½“å‰çš„ç§’æ•° */
-   *par = time( NULL );
-   return;
 }
