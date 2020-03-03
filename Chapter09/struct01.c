@@ -8,13 +8,13 @@ int main()
         int index;
         char name[30];
         short age ;
-    } person;
+    } person ={1, "淇″钩",28};
  
     person.index = 1;
-    strcpy(person.name, "信平");
+    strcpy(person.name, "淇″钩");
     person.age = 28;
 
-    /* 输出 person 信息 */
+    /* 杈撳嚭 person 淇℃伅 */
     printf( "person.index = %d\n", person.index);
     printf( "person.name = %s\n", person.name);
     printf( "person.age = %d\n", person.age);
