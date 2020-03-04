@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main ()
-{
-
+int sum(int a, int b) {
+     return a + b;
+ }
  
-   return 0;
-}
+ int main()
+ {
+     int c = sum(1, 4);
+     return 0;
+ }
