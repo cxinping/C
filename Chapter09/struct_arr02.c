@@ -17,9 +17,7 @@ int main()
     pStruct = person;
   
     for(int i=0; i < 3; i++, pStruct++){
-        printf( "person -> index = %d\n", person -> index);
-        printf( "person -> name = %s\n", person -> name);
-        printf( "person -> age = %d\n", person -> age);        
+        printf("index = %d, name = %s, age = %d\n", pStruct -> index , pStruct -> name , pStruct -> age);
     }
 
     return 0;
