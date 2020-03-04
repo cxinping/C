@@ -11,11 +11,11 @@ struct Person
 /*
     自定义函数，输出结构体变量成员
 */
-void showStructMessage(struct Person person)
+void showStructMessage(struct Person *person)
 {
-    printf( "person.index = %d\n", person.index);
-    printf( "person.name = %s\n", person.name);
-    printf( "person.age = %d\n", person.age);
+    printf( "person -> index = %d\n", person -> index);
+    printf( "person -> name = %s\n", person -> name);
+    printf( "person -> age = %d\n", person -> age);
 }
 
 int main()
@@ -25,6 +25,6 @@ int main()
     strcpy(person.name, "信平");
     person.age = 29;
 
-    showStructMessage(person);
+    showStructMessage(&person);
     return 0;
 }
