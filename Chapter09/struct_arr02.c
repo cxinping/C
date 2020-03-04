@@ -13,7 +13,15 @@ int main()
                 {3,"zhao",23}
     };
 
-    
+    struct Person *personInfo;
+    personInfo = Person;
+
+    for(int i=0; i < 3;i++){
+        printf( "person -> index = %d\n", personInfo -> index);
+        //*(personInfo++);
+
+    }
+
 
     return 0;
 }

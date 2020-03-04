@@ -9,7 +9,7 @@ struct Person
 }  ;
 
 /*
-    ×Ô¶¨Òåº¯Êı£¬Êä³ö½á¹¹Ìå±äÁ¿³ÉÔ±
+    è‡ªå®šä¹‰å‡½æ•°ï¼Œè¾“å‡ºç»“æ„ä½“å˜é‡æˆå‘˜
 */
 void showStructMessage(struct Person person)
 {
@@ -22,7 +22,7 @@ int main()
 {
     struct Person person;
     person.index = 1;
-    strcpy(person.name, "ĞÅÆ½");
+    strcpy(person.name, "ä¿¡å¹³");
     person.age = 29;
 
     showStructMessage(person);
