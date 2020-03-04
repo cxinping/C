@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include <string.h>   //ÎªÁËÊ¹ÓÃ strlen
+#include <string.h>   //ä¸ºäº†ä½¿ç”¨ strlen
 
 int main ()
 {
-    // ¶¨ÒåÒ»¸ö×Ö·û´®£¬ÓÃÖ¸ÕësÖ¸ÏòÕâ¸ö×Ö·û´®
+    // å®šä¹‰ä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œç”¨æŒ‡é’ˆsæŒ‡å‘è¿™ä¸ªå­—ç¬¦ä¸²
     char *s = "xp";
 
-    // Ê¹ÓÃstrlenº¯Êı²âÁ¿×Ö·û´®³¤¶È
+    // ä½¿ç”¨strlenå‡½æ•°æµ‹é‡å­—ç¬¦ä¸²é•¿åº¦
     int len = strlen(s);
 
-    printf("×Ö·û´®³¤¶È£º%d\n", len);
+    printf("å­—ç¬¦ä¸²é•¿åº¦ï¼š%d\n", len);
     printf("s = %s", s);
     return 0;
 }
