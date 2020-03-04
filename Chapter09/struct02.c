@@ -6,13 +6,12 @@ int main()
         int index;
         char name[30];
         short age;
-    }*person;
+    }*person, pinfo = {1, "ĞÅÆ½",28};
 
-    struct Person p1;
-    p1.index = 10;
-    person = &p1;
-    person -> index = 20;
-    printf("index=%d\n" , person->index);
-    printf("p1.index=%d" , p1.index );
+    person = &pinfo;
+    printf( "person -> index = %d\n", person -> index);
+    printf( "person -> name = %s\n", person -> name);
+    printf( "person -> age = %d\n", person -> age);
+
     return 0;
 }
