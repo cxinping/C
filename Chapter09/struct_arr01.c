@@ -13,7 +13,5 @@ int main()
                 {3,"zhao",23}
     };
 
-    
-
     return 0;
 }
