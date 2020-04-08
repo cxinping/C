@@ -4,8 +4,8 @@ int main()
 {
     int num;
  
-    printf("è¾“å…¥ä¸€ä¸ªæ•°å­— : ");
+    printf("ÊäÈëÒ»¸öÊı×Ö : ");
     scanf("%d",&num);
  
-    (num%2==0)?printf("å¶æ•°"):printf("å¥‡æ•°");
+    (num%2==0)?printf("Å¼Êı"):printf("ÆæÊı");
 }
