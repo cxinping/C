@@ -42,4 +42,6 @@ int main()
    {
       printf("Line 5 - b 大于或等于 a\n" );
    }
+
+   return 0;
 }

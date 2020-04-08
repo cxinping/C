@@ -20,4 +20,6 @@ int main()
    printf("Line 6 - c 的值是 %d\n", c );
    c = a--;  // 赋值后再减 1 ，c 为 22 ，a 为 21
    printf("Line 7 - c 的值是 %d\n", c ); 
+
+   return 0;
 }
